@@ -14,6 +14,8 @@ export default defineConfig({
     tailwindcss(),
     tsconfigPaths(),
   ],
+  // 别名的配置
+  // 这个resolve是添加的别名
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
