@@ -70,6 +70,7 @@ const props = defineProps<{
                 Don't have an account?
                 <a href="#">
                   Sign up
+                  登录2
                 </a>
               </FieldDescription>
             </Field>
